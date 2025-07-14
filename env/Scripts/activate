@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\WELCOME\Desktop\Work\kpa_api_assignment\env"
+VIRTUAL_ENV="C:\Users\WELCOME\Desktop\vaibhav_api_assignment\env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
