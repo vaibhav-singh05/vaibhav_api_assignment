@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KPA Form Frontend</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="notification"></div>
+  <div class="main-container">
+    <h1>KPA Form Frontend</h1>
+    <section>
+      <h2>Bogie Checksheet Form</h2>
+      <form id="bogieForm">
+        <label>Inspector Name:
+          <input type="text" name="inspector_name" required>
+        </label>
+        <label>Bogie Number:
+          <input type="text" name="bogie_number" required>
+        </label>
+        <label>Remarks:
+          <input type="text" name="remarks" required>
+        </label>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <section>
+      <h2>Wheel Specifications</h2>
+      <button type="button" id="loadSpecsBtn">Load Wheel Specifications</button>
+      <ul id="wheelSpecsList"></ul>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html> 
